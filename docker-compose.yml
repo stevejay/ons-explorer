@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  ons-explorer:
+    build: .
+    ports:
+      - '6008:80'
